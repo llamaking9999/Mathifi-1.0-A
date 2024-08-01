@@ -286,7 +286,7 @@ state.n3 = (getRandomInt(100,0));
         state.r5 = state.r2.concat(state.C.concat(state.r3))
         state.l5 = state.l2.concat(state.C.concat(state.l3))
         state.p5 = state.p2.concat(state.C.concat(state.p3))
-        state.n5 = state.n4.concat(state.C.concat(state.n3))
+        state.n5 = state.n2.concat(state.C.concat(state.n3))
         }
         if (state.op == 3){
         state.y5 = state.y2.concat(state.C.concat(state.y3))
@@ -297,7 +297,7 @@ state.n3 = (getRandomInt(100,0));
         state.r5 = state.r2.concat(state.C.concat(state.r3))
         state.l5 = state.l2.concat(state.C.concat(state.l3))
         state.p5 = state.p2.concat(state.C.concat(state.p3))
-        state.n5 = state.n4.concat(state.C.concat(state.n3))
+        state.n5 = state.n2.concat(state.C.concat(state.n3))
         }
         if (state.op == 4){
         state.y5 = state.y4.concat(state.C.concat(state.y3))
@@ -559,10 +559,11 @@ state.n3 = (getRandomInt(100,0));
              if (state.Hard_mode == 1){
              state.x ++;
              state.x ++;
+
              state.x2 ++;
              }
              else {
-             state.x ++;
+            state.x ++;
              state.x2 ++;
              }
              }
@@ -604,6 +605,18 @@ state.n3 = (getRandomInt(100,0));
              }
 
              if (state.r == state.r4){
+             if (state.Hard_mode == 1){
+             state.x ++;
+             state.x ++;
+             state.x2 ++;
+             }
+             else {
+             state.x ++;
+             state.x2 ++;
+             }
+             }
+
+            if (state.l == state.l4){
              if (state.Hard_mode == 1){
              state.x ++;
              state.x ++;
